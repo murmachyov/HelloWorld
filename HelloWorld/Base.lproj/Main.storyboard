@@ -31,6 +31,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Show Text"/>
+                                <connections>
+                                    <action selector="showTextButtonPresswnd" destination="BYZ-38-t0r" eventType="touchUpInside" id="NPD-Pi-FQc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -44,6 +47,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ar9-Bc-pjr" secondAttribute="trailing" constant="50" id="cgb-V4-U3e"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldlable" destination="Ar9-Bc-pjr" id="hzN-0o-ocf"/>
+                        <outlet property="showTextButton" destination="8yg-kb-lqk" id="yyd-MB-1jB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
