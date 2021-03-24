@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     @IBAction func showTextButtonPresswnd() {
         helloWorldlable.isHidden.toggle()
         if helloWorldlable.isHidden {
-            showTextButton.setTitle("Show Twxt", for: .normal)
+            showTextButton.setTitle("Show Text", for: .normal)
         } else {
             showTextButton.setTitle("Hide Text", for: .normal)
             
